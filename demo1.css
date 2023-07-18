@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bree+Serif&family=Inter:wght@300&family=Lilita+One&family=Monoton&family=Poppins&family=Roboto:wght@500&family=Rubik&family=Signika+Negative&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.red
+{
+    color: red;
+}
+.navbar
+{
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Lilita One', cursive;
+    font-weight: 100;
+    background-color: white;
+    box-shadow: 0px 0px 10px;
+}
+.logo
+{
+    text-align: center;
+    width: 15%;
+    font-size: 1.7rem;
+    font-family: 'Monoton', cursive;
+    font-weight: 1700;
+}
+.mid
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+    font-size: 1.1rem;
+}
+.mid a{
+    text-decoration: none;
+    color: black;
+}
+.rig{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1rem;
+}
+#login
+{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+#reg
+{
+    width: 7rem;
+    height: 3rem;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    border:1px solid black ;
+    border-radius: 1.5rem;
+}
+#reg:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.link:hover
+{
+    color: rgba(0, 0, 0, 0.795);
+   scale: 1.1;
+}
+.int{
+    
+    height: auto;
+    display: flex;
+    padding-top: 7%;
+    flex-direction: column;
+    align-items: center;
+}
+.boxint
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    width: 80%;
+    text-align: center;
+    padding: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 1.5rem;
+    background-color: rgba(238, 240, 211, 0.196);
+    backface-visibility: 0.5;
+    row-gap: 2rem;
+}
+.boxint span
+{
+    font-family: 'Roboto', sans-serif;
+    color: limegreen;
+    font-size: 2rem;
+}
+#desc
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.587);
+    font-weight: 900;
+}
+.butrow
+{
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+}
+.centb
+{
+    width: 9rem;
+    height: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    border:1px solid black ;
+    border-radius: 2rem;
+    background-color: white;
+    cursor: pointer;
+}
+.centb:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    
+}
+#cathe
+{
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.categ
+{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    
+    width: 80%;
+    align-items: center;
+    padding: 2%;
+    margin-top: 3rem;
+}
+.menu
+{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    
+    grid-template-rows: repeat(4,25%);
+    grid-template-columns: repeat(2,50%);
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5%;
+    align-items: center;
+    background-color:#f9f9f9;
+    border-radius: 0.9rem;
+    margin-top: 2rem;
+}
+.prod
+{
+    box-shadow: 0 0 2px;
+    width: 33%;
+    height: 20rem;
+    min-width: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    background-color: #f9f9f9;
+    border-radius: 0.9rem;
+    
+    
+}
+.prod:hover
+{
+    scale: 1.01;
+    transition: 0.8s;
+    background-color: white;
+}
+.prod img{
+    height: 60%;
+    width: 100%;
+}
+#greent
+{
+    font-family: 'Roboto', sans-serif; ;
+    color: limegreen;
+    align-self: flex-start;
+    margin: 2%;
+    margin-left: 0;
+}
+#prodd
+{
+    font-family: 'Roboto', sans-serif;
+}
+.lowerd
+{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    font-size: 0.7rem;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0.9rem;
+}
+.se
+{
+    height: auto;
+    display: flex;
+    width: 70%;
+    border-radius: 2rem;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    background-color: rgba(238, 240, 211, 0.196);
+}
+#sid
+{
+    font-size: 4rem;
+    font-family: 'Alata', sans-serif;
+    margin: 1rem;
+}
+.mainf
+{
+    height: 4rem;
+    width: 60%;
+    border-radius: 1.5rem;
+    border: none;
+    margin: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.mainf::placeholder
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#nn
+{
+    font-family: 'Rubik', sans-serif;
+    margin: 1rem;
+}
+#but2
+{
+    width: 9rem;
+    height: 3.5rem;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    border-radius: 2rem;
+    background-color:black ;
+    cursor: pointer;
+    color: white;
+}
+.bott
+{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin-top: 3rem;
+    
+}
+.foot
+{
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: 'oo ot oth of'
+    'to tt tth tf'
+    'tho tht thth thf'
+    'fo ft fth ff';
+}
+.ft{
+    padding: 2%;
+    background-color: rgb(4, 4, 12);
+    color: #f9f9f9;
+    text-align: center;
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    
+}
+.ft a{
+    color: #f9f9f9;
+}
+.ft a:hover{
+    color: #b0adad;
+}
+#fh
+{
+    font-family: 'Roboto', sans-serif;
+}
+.endtext
+{
+    padding: 0.15rem;
+    display: flex;
+    height: auto;
+    align-items: center;
+    font-family: roboto;
+    justify-content: center;
+    column-gap: 1rem;
+}
+.endtext img{
+    height: 40px;
+    width: 40px;
+}
+.imggal
+{
+    display: flex;
+    column-gap: 1rem;
+}
